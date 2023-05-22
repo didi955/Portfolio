@@ -21,7 +21,7 @@
               </div>
             </header>
             <div class="text-sm mt-4 space-y-4">
-              <p>Laravel Blog est un projet d'apprentissage du framework Laravel basé sur l'application web de Jeffrey Way de la série Laracasts, Laravel From Scratch. J'ai développé cette application en parallèle avec cette série.</p>
+              <p>Laravel Blog est un projet d'apprentissage du framework Laravel basé sur l'application web de Jeffrey Way de la série Laracasts, Laravel From Scratch. J'ai développé cette application en parallèle de cette série.</p>
             </div>
             <footer class="flex justify-center items-center mt-8">
               <div>

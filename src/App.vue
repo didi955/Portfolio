@@ -1,39 +1,21 @@
-<template>
-  <div class="bg-gray-800 min-h-screen text-white">
-    <div class="mb-24">
-      <header class="p-10">
-        <h1 class="text-6xl font-bold text-center">Portfolio</h1>
-      </header>
-      <div>
-        <p class="text-center text-xl">En cours de construction</p>
-      </div>
-    </div>
-    <div class="bg-blue-900 rounded-2xl text-center mt-12 mx-4 md:mx-12 lg:mx-24">
-      <h2 class="text-4xl font-bold">Projets</h2>
-      <article class="transition-colors duration-300 border-4 border-black border-opacity-20 hover:border-opacity-30 rounded-xl mt-8 mx-4 md:mx-16 lg:mx-32">
-        <div class="py-6 px-5 lg:flex">
-          <div class="flex-1 flex flex-col justify-between">
-            <header class="mt-8 lg:mt-0">
-              <div class="mt-4">
-                <h1 class="text-4xl">
-                  <a href="https://blog.dylan-lannuzel.fr" class="break-all">Laravel Blog</a>
-                </h1>
-              </div>
-            </header>
-            <div class="text-sm mt-4 space-y-4">
-              <p>Laravel Blog est un projet d'apprentissage du framework Laravel basé sur l'application web de Jeffrey Way de la série Laracasts, Laravel From Scratch. J'ai développé cette application en parallèle de cette série.</p>
-            </div>
-            <footer class="flex justify-center items-center mt-8">
-              <div>
-                <a href="https://blog.dylan-lannuzel.fr" class="transition-colors duration-300 text-xs font-semibold bg-gray-700 hover:bg-gray-800 rounded-full py-2 px-8">En savoir plus</a>
-              </div>
-            </footer>
-          </div>
-        </div>
-      </article>
-    </div>
-  </div>
-</template>
-
 <script setup lang="ts">
+
+import NavBar from "./components/navbar/NavBar.vue";
+import SideBar from "./components/SideBar.vue";
+
+import Home from "./components/About.vue";
+import Skills from "./components/skills/Skills.vue";
+import Projects from "./components/Projects.vue";
+
 </script>
+
+<template>
+  <div class="w-full bg-gray-800 scroll-smooth" style="font-family: 'Roboto', sans-serif">
+    <NavBar/>
+    <SideBar/>
+    <Home/>
+    <Skills/>
+    <Projects/>
+  </div>
+
+</template>

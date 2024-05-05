@@ -49,7 +49,7 @@
 
 <template>
   <div id="Experience" class="bg-gray-800 rounded-lg p-6 relative">
-    <h2 class="text-4xl font-semibold text-center mb-6 text-cyan-600">Expérience</h2>
+    <h2 class="text-4xl font-semibold text-center mb-6 text-cyan-600">Mes expériences</h2>
     <div class="flex justify-center">
       <div class="h-full w-px bg-gray-600"></div>
       <div class="ml-4">

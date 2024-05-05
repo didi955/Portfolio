@@ -2,7 +2,7 @@
 
 import NavLink from "./NavLink.vue";
 import NavBarLeft from "./NavBarLeft.vue";
-import logoUrl from "../../assets/images/logo.jpg";
+import logoUrl from "../../assets/images/moi.png";
 
 </script>
 

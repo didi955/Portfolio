@@ -15,7 +15,7 @@ import logoUrl from "../../assets/images/moi.png";
         </NavBarLeft>
         <div class="flex justify-center md:flex-row md:mr-0 md:ml-auto w-full md:w-auto">
           <NavLink href="#Skills">Compétences</NavLink>
-          <NavLink href="#Experience">Expériences</NavLink>
+          <NavLink href="#Experience">Parcours</NavLink>
           <NavLink href="#Projects">Projets</NavLink>
         </div>
       </div>

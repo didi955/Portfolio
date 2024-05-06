@@ -27,7 +27,7 @@
               </svg>
           </span>
       </a>
-      <div @click="scrollToSkills" class="cursor-pointer absolute bottom-0 left-0 right-0 flex justify-center mb-14">
+      <div @click="scrollToSkills" class="cursor-pointer absolute bottom-0 left-0 right-0 flex justify-center lg:mb-14 mb-8">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-8 w-8 mx-auto text-cyan-500 hover:text-cyan-600">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
         </svg>

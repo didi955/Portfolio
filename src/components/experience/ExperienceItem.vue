@@ -12,7 +12,7 @@
 <template>
   <div class="flex items-center mb-1">
     <div class="flex-shrink-0">
-      <div v-html="exp.icon" class="w-12 h-12"></div>
+      <img :src="exp.icon" alt="Experience icon" class="w-8 h-8" loading="lazy">
     </div>
     <div class="ml-4">
       <h3 class="text-xl font-semibold text-gray-200">{{ exp.title }}</h3>

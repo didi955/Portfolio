@@ -6,6 +6,7 @@ import SideBar from "./components/sidebar/SideBar.vue";
 import About from "./components/About.vue";
 import Skills from "./components/skills/Skills.vue";
 import ExperienceSection from "./components/experience/ExperienceSection.vue";
+import ProjectSection from "./components/projects/ProjectSection.vue";
 
 </script>
 
@@ -16,6 +17,7 @@ import ExperienceSection from "./components/experience/ExperienceSection.vue";
     <About/>
     <Skills/>
     <ExperienceSection/>
+    <ProjectSection/>
   </div>
 
 </template>

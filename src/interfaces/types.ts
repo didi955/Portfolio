@@ -11,3 +11,12 @@ export interface Experience {
     date: string;
     description?: string;
 }
+
+export interface Project {
+    title: string;
+    description: string;
+    labels: string[];
+    image: string;
+    production?: string;
+    github?: string;
+}

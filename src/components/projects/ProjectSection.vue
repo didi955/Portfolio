@@ -1,24 +1,40 @@
 <script setup lang="ts">
 
-import ProjectCard from "./ProjectCard.vue";
-import { Project } from "../../interfaces/types.ts";
+  import ProjectCard from "./ProjectCard.vue";
+  import { Project } from "../../interfaces/types.ts";
+
+  import blogImage from "../../assets/images/projects/blog.webp";
+  import descenteGradientImage from "../../assets/images/projects/descenteGradient.webp";
+  import iiifImage from "../../assets/images/projects/iiif.webp";
 
   const projects: Project[] = [
     {
-      title: "Projet 1",
-      description: "Description du projet 1",
-      labels: ["Vue.js", "Tailwind CSS"],
-      image: "https://via.placeholder.com/150",
-      production: "https://example.com/projet1",
-      github: "https://github.com/example/projet1",
+      title: "Laravel Blog",
+      description: "Laravel Blog is a project for learning the Laravel framework based on Jeffrey Way's web application from the Laracasts series, Laravel From Scratch. " +
+          "I have developed this application in parallel to this series.",
+      labels: ["Laravel", "Tailwind CSS", "Alpine JS"],
+      image: blogImage,
+      production: "https://blog.dylan-lannuzel.fr",
+      github: "https://github.com/didi955/Laravel-Blog",
     },
     {
-      title: "Projet 2",
-      description: "Description du projet 2",
-      labels: ["React", "Node.js"],
-      image: "https://via.placeholder.com/150",
-      github: "https://github.com/example/projet2",
+      title: "SAE BUT1 Exploration algorithmique",
+      description: "Ceci est un projet en binôme dans le cadre du BUT1 informatique, l'objectif était de" +
+          " proposer une approche graphique et algorithmique sur la Descente de Gradient",
+      labels: ["Jupyter Notebook", "Numpy", "Matplotlib"],
+      image: descenteGradientImage,
+      github: "https://github.com/didi955/SAE_MATH_METHODE_NUM",
     },
+    {
+      title: "API IIIF Image",
+      description: "API REST avec Spring Boot, conforme aux spécifications IIIF. " +
+          "Cette API permet de récupérer, extraire, redimensionner et convertir des images haute résolution via des interfaces normalisées. " +
+          "Elle facilite l'interopérabilité et un partage optimisé des ressources numériques.",
+      labels: ["Java", "SpringBoot", "Gradle"],
+      image: iiifImage,
+      production: "https://iiif.io/api/image/3.0/",
+      github: "https://github.com/didi955/iiif-image",
+    }
   ];
 </script>
 

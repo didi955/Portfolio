@@ -26,7 +26,7 @@
       <div v-for="(skill, index) in skills" :key="index" class="w-1/2 p-2">
         <div class="flex items-center">
           <a :href="skill.link" target="_blank">
-            <img :src="skill.logo" :alt="skill.name" class="h-8 w-8 mr-2" loading="lazy">
+            <img :src="skill.logo" :alt="skill.name + ' icon'" class="h-8 w-8 mr-2" loading="lazy">
             <span>{{ skill.name }}</span>
           </a>
         </div>

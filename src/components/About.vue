@@ -16,7 +16,7 @@
       <h1 class="text-5xl sm:text-8xl font-semibold text-cyan-600 mb-6">Dylan LANNUZEL</h1>
       <h2 class="text-4xl sm:text-5xl text-gray-100 mb-8">Apprenti ingénieur logiciel</h2>
       <p class="text-gray-200 sm:text-xl text-sm my-8 leading-normal">
-        Je suis un étudiant en alternance dans le cadre du BUT Informatique en tant que développeur full stack chez <a class="text-cyan-500 hover:text-cyan-600" href="https://ebrigade.app/" target="_blank">eBrigade</a>.
+        Je suis un étudiant en alternance dans le cadre du BUT Informatique en tant que développeur full stack chez <a class="text-cyan-500 hover:text-cyan-800" href="https://ebrigade.app/" target="_blank">eBrigade</a>.
         Je me suis passionné pour le développement logiciel durant mon enfance avec le jeu Minecraft. Ainsi, j'aimerais me spécialiser dans l'architecture logicielle.
       </p>
       <a class="inline-flex items-center leading-tight text-slate-200 group" aria-label="Voir CV" target="_blank" type="application/pdf" :href="cvUrl">
@@ -28,7 +28,7 @@
           </span>
       </a>
       <div @click="scrollToSkills" class="cursor-pointer absolute bottom-0 left-0 right-0 flex justify-center lg:mb-14 mb-8">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-8 w-8 mx-auto text-cyan-500 hover:text-cyan-600">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-8 w-8 mx-auto text-cyan-500 hover:text-cyan-800">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
         </svg>
       </div>

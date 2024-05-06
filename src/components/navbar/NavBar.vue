@@ -2,7 +2,7 @@
 
 import NavLink from "./NavLink.vue";
 import NavBarLeft from "./NavBarLeft.vue";
-import logoUrl from "../../assets/images/moi.png";
+import logoUrl from "../../assets/images/moi.webp";
 
 </script>
 
@@ -11,7 +11,7 @@ import logoUrl from "../../assets/images/moi.png";
     <nav class="fixed w-full lg:h-20 z-10 bg-gray-800 border-b-2 border-solid border-cyan-500 rounded-b-md md:border-0 md:bg-transparent">
       <div class="flex items-center">
         <NavBarLeft>
-          <img class="h-14 w-14 mx-2 rounded-2xl" width="14" height="14" :src="logoUrl" alt="Dylan LANNUZEL">
+          <img class="h-14 w-14 mx-2 rounded-2xl" :src="logoUrl" alt="Dylan LANNUZEL">
         </NavBarLeft>
         <div class="flex justify-center md:flex-row md:mr-0 md:ml-auto w-full md:w-auto">
           <NavLink href="#Skills">Compétences</NavLink>

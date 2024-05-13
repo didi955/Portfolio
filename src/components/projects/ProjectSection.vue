@@ -6,6 +6,9 @@
   import blogImage from "../../assets/images/projects/blog.webp";
   import descenteGradientImage from "../../assets/images/projects/descenteGradient.webp";
   import iiifImage from "../../assets/images/projects/iiif.webp";
+  import RcbImage from "../../assets/images/projects/rcb.webp";
+  import IAImage from "../../assets/images/projects/ia.webp";
+  import animathImage from "../../assets/images/projects/animath.webp";
 
   const projects: Project[] = [
     {
@@ -18,7 +21,7 @@
       github: "https://github.com/didi955/Laravel-Blog",
     },
     {
-      title: "SAE BUT1 Exploration algorithmique",
+      title: "SAE S2 Exploration algorithmique",
       description: "Ceci est un projet en binôme dans le cadre du BUT1 informatique, l'objectif était de" +
           " proposer une approche graphique et algorithmique sur la Descente de Gradient",
       labels: ["Jupyter Notebook", "Numpy", "Matplotlib"],
@@ -34,6 +37,29 @@
       image: iiifImage,
       production: "https://iiif.io/api/image/3.0/",
       github: "https://github.com/didi955/iiif-image",
+    },
+    {
+      title: "SAE S6 Chatbot IA",
+      description: "Chatbot IA est un projet de développement d'un chatbot en Python avec un processus de fine-tuning sur les transformers des modèles Bert, Google T5 et Roberta avec le dataset SquadV2" +
+          " Ce chatbot est capable de répondre à des questions sur un sujet donné en contexte, de manière naturelle et intelligente.",
+      labels: ["Transformers", "PyTorch", "Python", "Streamlit"],
+      image: IAImage,
+    },
+    {
+      title: "Rushcubeland",
+      description: "Rushcubeland est un projet large de développement d'un réseau de serveurs de jeu Minecraft et des services qui y sont reliés." +
+          " Regroupant de larges compétences en POO Java, SQL, Redis, Admin Sys, Conception de scénario de jeu, développement d'une communauté.",
+      labels: ["Java", "Minecraft", "Redis", "SQL"],
+      image: RcbImage,
+      github: "https://github.com/Rushcubeland",
+    },
+    {
+      title: "SAE S3 Animath Planning",
+      description: "Ce projet consiste à proposer une solution web fiable et pérenne à l'association Animath pour pouvoir gérer les inscriptions " +
+          "et prises de rendez-vous dans le cadre d'un salon dédié aux mathématiques pour les Jeunes.",
+      labels: ["PHP", "JS", "MVC", "PostgreSQL"],
+      image: animathImage,
+      github: "https://github.com/didi955/Animath-Planning",
     }
   ];
 </script>

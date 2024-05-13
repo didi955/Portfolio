@@ -14,7 +14,7 @@
       <img
           :src="project.image"
           :alt="project.title + ' cover image'"
-          class="w-full md:w-72 h-48 object-cover rounded-lg mb-4 md:mb-0 md:mr-4"
+          class="w-full md:w-72 h-60 object-cover rounded-lg mb-4 md:mb-0 md:mr-4"
           loading="lazy"
       />
       <div class="md:flex-1 md:ml-3 lg:ml-6">

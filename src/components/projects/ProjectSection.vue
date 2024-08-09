@@ -17,7 +17,6 @@
           "I have developed this application in parallel to this series.",
       labels: ["Laravel", "Tailwind CSS", "Alpine JS"],
       image: blogImage,
-      production: "https://blog.dylan-lannuzel.fr",
       github: "https://github.com/didi955/Laravel-Blog",
     },
     {

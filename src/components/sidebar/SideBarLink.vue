@@ -1,17 +1,19 @@
-<script setup lang="ts">
+<script lang="ts" setup>
 
-defineProps({
-  href: {
-    type: String,
-    default: '#'
-  },
-});
+withDefaults(
+    defineProps<{
+        href: string
+    }>(),
+    {
+        href: '#'
+    }
+);
 
 </script>
 
 <template>
-  <a :href="href" target="_blank" rel="noreferrer">
-    <slot></slot>
-  </a>
+    <a :href="href" rel="noreferrer" target="_blank">
+        <slot></slot>
+    </a>
 
 </template>

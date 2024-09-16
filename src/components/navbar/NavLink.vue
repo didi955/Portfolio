@@ -1,13 +1,8 @@
 <script lang="ts" setup>
 
-withDefaults(
-    defineProps<{
-        href: string
-    }>(),
-    {
-        href: '#'
-    }
-);
+const { href = '#'} = defineProps<{
+    href: string
+}>();
 
 </script>
 

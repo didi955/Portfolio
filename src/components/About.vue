@@ -1,6 +1,7 @@
 <script lang="ts" setup>
 
 import cvUrl from "../assets/cv.pdf";
+import safranSvg from "../assets/icons/safran.svg";
 
 const scrollToSkills = () => {
     const skills = document.getElementById('Skills');
@@ -16,11 +17,15 @@ const scrollToSkills = () => {
             <h1 class="text-5xl sm:text-8xl font-semibold text-cyan-600 mb-6">Dylan LANNUZEL</h1>
             <h2 class="text-4xl sm:text-5xl text-gray-100 mb-8">Apprenti ingénieur logiciel</h2>
             <p class="text-gray-200 sm:text-xl text-sm my-8 leading-normal">
-                Je suis un étudiant en alternance dans le cadre du BUT Informatique en tant que développeur full stack
-                chez <a class="text-cyan-500 hover:text-cyan-800" href="https://ebrigade.app/"
-                        target="_blank">eBrigade</a>.
-                Je me suis passionné pour le développement logiciel durant mon enfance avec le jeu Minecraft. Ainsi,
-                j'aimerais me spécialiser dans l'architecture logicielle.
+                Je suis un étudiant en alternance à ESIEE-Paris en tant que développeur chez
+                <a class="text-cyan-500 hover:text-cyan-800 inline-flex items-center"
+                   href="https://www.safran-group.com/fr/societes/safran-electronics-defense/"
+                   target="_blank">
+                    <img :src="safranSvg" class="h-5 w-5 mr-1 inline" loading="lazy" alt="Safran icon">
+                    <span class="inline-flex items-center">Safran Electronics & Defense</span>
+                </a>.
+                Je me suis passionné pour le développement logiciel durant mon enfance avec le jeu Minecraft. Ainsi, j'aimerais
+                me spécialiser dans l'architecture logicielle.
             </p>
             <a :href="cvUrl" aria-label="Voir CV" class="inline-flex items-center leading-tight text-slate-200 group"
                target="_blank" type="application/pdf">

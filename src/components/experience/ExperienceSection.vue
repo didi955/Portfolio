@@ -8,10 +8,16 @@ import AcademyIcon from '../../assets/icons/academy.svg';
 
 const experiences: Experience[] = [
     {
+        icon: PositionIcon,
+        title: "Développeur",
+        position: "Safran Electronics & Defense",
+        date: "2024 - 2027",
+    },
+    {
         icon: AcademyIcon,
-        title: "Admission à l'ESIEE-Paris",
-        position: "Apprenti Ingénieur Informatique",
-        description: "Admission à l'ESIEE-Paris en apprentissage pour un cycle d'ingénieur informatique en architecture logicielle",
+        title: "Apprenti ingénieur logiciel",
+        position: "ESIEE-Paris",
+        description: "Cycle ingénieur informatique en architecture logicielle",
         date: "2024 - 2027"
     },
     {
